@@ -3,12 +3,14 @@ const burger = document.querySelector('nav svg');
 burger.addEventListener("click", () => {
   if (burger.classList.contains("active")) {
     gsap.to(".links", { x: "100%" });
+    gsap.to(".guitarimg",{padding:"0%"});
     gsap.to(".line", { stroke: "white" });
     gsap.set("body", { overflow: "auto" });
     gsap.set("body", { overflowX: "hidden" });
   } else {
     gsap.to(".links", { x: "0%" });
     gsap.to(".line", { stroke: "black" });
+    gsap.to(".guitarimg",{padding:"0 2%"});
     gsap.fromTo(
       ".links a",
       { opacity: 0, y: 0 },
