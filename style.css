@@ -4,6 +4,10 @@
   box-sizing: border-box;
   
 }
+img{
+  max-width: 100%;
+  object-fit: cover;
+}
 html{
   overflow-x:hidden;
   font-family: 'Roboto', sans-serif;
@@ -158,3 +162,49 @@ border-radius: 1rem;
 
 object-fit: cover;
 }
+
+.review{
+  
+display: grid;
+grid-template-columns: repeat(3,1fr);
+
+gap: 20px;
+
+}
+.item{
+  
+  text-align: center;
+  padding: 10px;
+ 
+
+}
+.item:nth-of-type(1){
+  grid-column-start: 1;
+  grid-column-end: 4;
+  
+}
+.item:nth-of-type(5),
+.item:nth-of-type(6),
+.item:nth-of-type(7){
+  background-color: var(--main-color);
+  padding: 20px;
+  border-radius: 22px;
+}
+span{
+  color: rgb(224, 24, 24);
+  font-weight: 200;
+}
+.rating{
+  color: var(--secondary-color);
+  margin: 10px;
+}
+.guitarist{
+
+   
+  border-radius: 50%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.216);
+}
+
+
