@@ -204,11 +204,11 @@ span{
   margin: 10px;
 }
 .guitarist{
-
-  border-radius: 50%;
+  max-width: 200px;
   height: 100%;
-  object-fit: cover;
+  border-radius: 50%;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.216);
+  margin-bottom: 10px;
 }
 .our-story{
   display: flex;
@@ -222,4 +222,46 @@ span{
 }
 .classes_description{
   color:#faefe8 ;
+}
+
+
+
+ 
+
+
+.review2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 5%;
+  background-color: rgba(201, 201, 201, 0.192);
+  
+}
+.review-intro{
+  background-color: rgba(201, 201, 201, 0.192);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  
+
+}
+
+.review2 .user{
+  background-color: #f8b281;
+  padding: 5%;
+  border-radius: 10px;
+  
+}
+
+
+@media only screen and (max-width: 768px)  {
+  .review2{
+    display: grid;
+  grid-template-columns: repeat(1,1fr);
+  }
+  
 }
