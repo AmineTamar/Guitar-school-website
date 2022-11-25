@@ -118,6 +118,7 @@ nav svg{
 }
 .classes{
   color: var(--secondary-color);
+  background-color:#2e2e2e;
   text-align: center;
   font-family: sans-serif;
 }
@@ -132,6 +133,7 @@ nav svg{
 .solo,
 .rhythm {
   position: relative;
+  padding: 2% 10%;
 }
 .videos h3{
   position: absolute;
@@ -143,7 +145,8 @@ nav svg{
   font-size: 2rem;
 }
 .about{
-  color: var(--secondary-color);
+  color: white;
+background-color: #1b1b1b;
 }
 .about h2{
   font-family: sans-serif;
@@ -167,8 +170,10 @@ object-fit: cover;
   
 display: grid;
 grid-template-columns: repeat(3,1fr);
+background-color: rgba(201, 201, 201, 0.192);
 
 gap: 20px;
+padding: 2% 10%;
 
 }
 .item{
@@ -200,11 +205,21 @@ span{
 }
 .guitarist{
 
-   
   border-radius: 50%;
   height: 100%;
   object-fit: cover;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.216);
 }
-
-
+.our-story{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 10%;
+}
+.story{
+  margin-bottom: 20px;
+}
+.classes_description{
+  color:#faefe8 ;
+}
