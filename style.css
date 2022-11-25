@@ -119,6 +119,7 @@ nav svg{
 .classes{
   color: var(--secondary-color);
   background-color:#2e2e2e;
+  
   text-align: center;
   font-family: sans-serif;
 }
@@ -166,23 +167,8 @@ border-radius: 1rem;
 object-fit: cover;
 }
 
-.review{
-  
-display: grid;
-grid-template-columns: repeat(3,1fr);
-background-color: rgba(201, 201, 201, 0.192);
 
-gap: 20px;
-padding: 2% 10%;
 
-}
-.item{
-  
-  text-align: center;
-  padding: 10px;
- 
-
-}
 .item:nth-of-type(1){
   grid-column-start: 1;
   grid-column-end: 4;
